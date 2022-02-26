@@ -1,0 +1,192 @@
+.space {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Nav */
+header {
+    background-color: #000000;
+}
+
+.support {
+    padding: 16px 0px 16px 0px;
+    color: white;
+}
+
+.support li {
+    padding: 0px 5px 0px 5px;
+}
+.icono {
+    font-size: 18px;
+}
+
+header a { 
+    color: white;
+}
+
+/* Banner */
+.home_banner {
+    background-image: url(./img/negocio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+.space_banner {
+    border-radius: 5px;
+    margin-top: 150px;
+    padding: 20px;
+    background: #ffffff94;
+    color: black;
+  
+}
+
+.home_banner h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.home_banner p {
+    margin: 15px 0 10px;
+}
+
+.btn-primary {
+    background-color: #0088ff;
+    border-color: #0088ff;
+}
+
+.button {
+    color: #000000;
+    background-color: #9f797900;
+    border-color: #000000;
+}
+
+.button:hover {
+    color: #000000;
+    background-color: white;
+}
+
+/* NavBar */
+.navbar {
+    margin-bottom: 0px !important;
+    border: none !important;
+}
+
+/* Services */
+.card {
+    padding: 12px;
+    width: 98%;
+    border: 1px solid #777;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.services {
+    margin: 20px auto 0px;
+    padding-top: 15px;
+    width: 74px;
+    height: 75px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgb(255 253 253 / 20%), 0 6px 20px 0 rgb(68 68 68);
+    background-color: rgb(0 136 255);
+}
+
+.card p {
+    padding: 10px !important;
+    color:#4f5251;
+}
+
+/* Information */
+
+.color {
+    background-color: #d8edff;
+}
+
+.line h3 {
+    color: #0088ff;
+}
+
+.line h3::after {
+    content: "";
+    margin: 1px;
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    background-color: #6e6969;
+    top: 30px;
+}
+
+/* Footer */
+.experience {
+    position: relative;
+    margin: 90px auto;
+    width: 38%;
+}
+
+.logo {
+    padding-top: 15px;
+    width: 375px;
+    height: 375px;
+    text-align: center;
+    border-radius: 50%;
+    color: #0088ff;
+    box-shadow: 0 4px 8px 0 rgb(255 253 253 / 20%), 0 6px 20px 0 rgb(68 68 68), -100px -50px;
+}
+
+.logo h1 {
+    font-size: 170px;
+}
+
+.logo h2 {
+    color: #3a3a3a;
+}
+
+.circle {
+    position: absolute;
+    top: 0px;
+    right: -200px;
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    box-shadow: 0 6px 20px 0 rgb(99 127 152);
+    background-color: #0088ff;
+}
+
+.circle2 {
+    position: absolute;
+    top: 130px;
+    right: -200px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 6px 20px 0 rgb(99 127 152);
+    background-color: rgb(0 136 255);
+}
+
+.word {
+    margin: 90px auto;
+}
+
+.word h3{
+    color: #0088ff;
+}
+
+@media(min-width: 768px) {
+    .card {
+        height: 435px;
+    }
+}
+
+@media(max-width: 992px) {
+    .card {
+        margin-bottom: 25px;
+    }
+}
+
+@media(min-width: 992px) {
+    .card {
+        height: 360px;
+    }
+}
+

@@ -16,8 +16,13 @@ header {
 .support li {
     padding: 0px 5px 0px 5px;
 }
-.icono {
+
+.icono li {
+    margin: 7px;
+    padding: 12px;
     font-size: 18px;
+    float: left;
+    list-style-type: none;
 }
 
 header a { 
@@ -112,7 +117,7 @@ header a {
     margin: 1px;
     position: absolute;
     height: 2px;
-    width: 60px;
+    /* width: 60px; */
     background-color: #6e6969;
     top: 30px;
 }
@@ -172,21 +177,145 @@ header a {
     color: #0088ff;
 }
 
-@media(min-width: 768px) {
-    .card {
-        height: 435px;
+@media(min-width: 1200px) {
+
+    .line h3::after {
+        width: 60px;
     }
+
 }
 
 @media(max-width: 992px) {
     .card {
         margin-bottom: 25px;
     }
-}
 
-@media(min-width: 992px) {
-    .card {
-        height: 360px;
+    .line h3::after {
+        width: 30px;
+    }
+
+    .logo {
+        width: 230px;
+        height: 230px;
+    }
+
+    .logo h1{
+        font-size: 90px;
+    }
+
+    .logo h2{
+       font-size: 22px;
+    }
+
+    .circle {
+        right: -135px;
+    }
+    
+    .circle2 {
+        right: -135px;
+    }
+
+    .word h4 {
+        font-size: 15px;
     }
 }
 
+@media(min-width: 992px) {
+    
+    .card {
+        height: 360px;
+    }
+
+    .line h3::after {
+        width: 45px;
+    }
+}
+
+@media(max-width: 768px) {
+  
+    .support {
+        margin: auto;
+        width: 246px;   
+    }
+
+    .support li {
+        text-align: center;
+    }
+
+    .icono {
+        margin: auto;
+        padding: 0px;
+        width: 246px;   
+    }
+}
+
+@media(min-width: 768px) {
+    .card {
+        height: 435px;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .logo {
+        width: 207px;
+        height: 210px;
+    }
+    
+    .logo h1{
+        font-size: 36px;
+    }
+
+    .logo h2{
+       font-size: 24px;
+    }
+
+    .circle {
+        width: 0px;
+        height: 0px;
+    }
+    
+    .circle2 {
+        width: 0px;
+        height: 0px;
+    }
+
+    .word h4 {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width: 425px) {
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .logo h2{
+       font-size: 15px;
+    }
+
+}
+
+@media(max-width: 320px) {
+
+    .button {
+        margin-top: 10px; 
+    }
+
+    .line h3::after {
+        width: 24px;
+        right: -15px;
+    }
+
+    .word h3 {
+        font-size: 16px;
+    }
+
+    .word h4 {
+        font-size: 10px;
+    }
+
+}
